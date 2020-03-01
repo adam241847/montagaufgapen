@@ -1,0 +1,333 @@
+@font-face {
+    font-family: "font1";
+    src: url("../font/Larish\ Neue\ Semibold.woff2");
+}
+@font-face {
+    font-family: "font2";
+    src: url("../font/LarishNeueSemibold.woff");
+}
+/* 
++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++ 
+*/
+
+body{
+    width: 100%;
+    height: 1000vh;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 295vh;
+    margin: 0;
+    background-color: black;
+
+}
+.header1{
+    width: 2px;
+    height: 230px;
+   margin: 0 0 0 50%;
+    background-color: rgb(99, 97, 97);
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 100px;
+    margin: 0% 0 5% 0;
+    font-family: "font1";
+}
+header h2{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 100px;
+    margin: -110px 0 0 0;
+    font-family: "font1";
+    -webkit-text-stroke: 2px white;
+}
+header .p1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    margin: 4% 0 0 0;
+    font-family: "font1";
+}
+header .p2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    margin: -1px 0 0 0;
+    font-family: "font1";
+}
+.header3{
+    width: 80%;
+    margin: 10% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.header3 img{
+    width: 6%;
+}
+
+a:link, a:visited {
+    background-color: #000000;
+    color: white;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid white;
+    font-size: 23px;
+  }
+  
+  a:hover, a:active {
+    background-color: white;
+    color: black;
+  }
+/* ++++++++++++++++++section+++++++++++++++++++++ */
+section{
+    width: 80%;
+    margin: 0 10%;
+}
+.sectiondiv1 p{
+    color: white;
+    font-size: 100px;
+    font-family: "font1";
+}
+.sectiondiv{
+    width: 80%;
+    display: flex;
+}
+.sectiondiv2{
+    width: 40%;
+    margin: 0;
+}
+.sectiondiv2 p{
+    color: white;
+}
+.sectiondiv2 h1{
+    display: flex;
+    color: white;
+    margin: 0;
+    left: 0;
+}
+.sectiondiv3{
+    width: 40%;
+}
+.sectiondiv3 img{
+    width: 150%;
+    margin: -30% 0 0 100%;
+}
+/* +++++++++++++++#section1+++++++++++++++++++ */
+#section1{
+    width: 100%;
+    height: 230vh;
+    margin: 0;
+}
+#section1 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 90px;
+    font-family: "font1";
+    margin:  6% 0 0 0 ;
+
+}
+#section1 p{
+    display: flex;
+    justify-content: center;
+    font-family: "font2";
+    margin: 0 0 0 -4% ;
+}
+
+.section1P{
+    display: flex;
+    justify-content: center;
+}
+
+.img1{
+    width: 350px;
+margin: -7% 0 0 68%;
+}
+.img2{
+    width: 300px;
+    margin: 0 0 -10% 4%;
+}
+.img3{
+    width: 300px;
+    margin: -5% 0 0 79%;
+}
+.img4{
+    width: 350px;
+    margin: 3% 0 0 18%;
+}
+.img5{
+    width: 350px;
+    margin: -3% 0 10% 65%;
+}
+.img6{
+    width: 350px;
+    margin: -50% 0 0 0;
+}
+.img7{
+   width: 450px;
+   margin: 0 0 0 48%; 
+}
+/* ++++++++++++++++++#section++++++++++++++++++++ */
+#section2{
+    width: 100%;
+    height: 190vh;
+    background-color: black;
+    margin: 0;
+}
+.section2div{
+    width: 90%;
+    margin: 0 0 0 10%;
+    display: flex;
+}
+.section2div1{
+    width: 40%;
+    margin: 19% 0 0 0;
+}
+.section2div1 p{
+    color: white;
+    font-size: 30px;
+}
+.section2div1 h1{
+    color: white;
+    font-size: 90px;
+    margin: 0;
+}
+.section2div2{
+    width: 50%;
+    margin: 25% 0 0 0;
+}
+.section2div2 h4{
+    color: white;
+    font-size: 38px;
+    margin: 0 0 5% 0;
+}
+.section2div2 p{
+    color: white;
+    font-size: 25px;
+    margin: 0;
+}
+.section2img{
+    width: 90%;
+    margin: 18% 0 0 8%;
+    display: flex;
+}
+.section2img div{
+    width: 45%;
+}
+.section2img1{
+    width: 140%;
+
+    margin: 0;
+}
+
+.section2img7{
+    width: 70%;
+    margin: 35% 0 0 25%;
+}
+/* ++++++++++++++++#section3++++++++++++++ */
+#section3{
+    width: 100%;
+    height: 230vh;
+    margin: 0;
+}
+.section3div1{
+
+}
+.section3div2{
+    width: 80%;
+    margin: 30% 10%;
+    display: flex;
+    justify-content: center;
+}
+.section3div3{
+    width: 100%;
+    
+}
+.section3div3 p{
+     font-size: 30px;
+     margin: 0;
+}
+.section3div3 h1{
+    font-size: 90px;
+    margin: 0;
+}
+.section3div4{
+    width: 100%;
+}
+.section3div4 h4{
+    margin: 10% 0 5% 0;
+    font-size: 32px;
+}
+.section3div4 p{
+    font-size: 150%;
+}
+.section3img{
+    width: 80%;
+    margin: -10% 10% 0 10%;
+    display: flex;
+    
+}
+.section3img div{
+    width: 100%;
+}
+.section3img1{
+    width: 70%;
+    margin: 20% -30% 0 0 ;
+}
+.section3img2{
+    width: 140%;
+    margin: 0 0 0 -40%;
+}
+/* ++++++++++++#section4+++++++++++++ */
+#section4{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+}
+.section4div{
+    width: 90%;
+    margin: 0 0 0 10%;
+}
+.section4div p{
+    color: white;
+    margin: 0 0 0 0;
+    font-size: 30px;
+    
+}
+.section4div h3{
+    color: white;
+    font-size: 50px;
+}
+.section4div1{
+    display: flex;
+    margin: 12% 0 0 0;
+}
+
+.section4div2 h5{
+    color: white;
+    font-size: 20px;
+    margin: 0;
+}
+.section4div2 p{
+    font-size: 20px;
+}
+.section4div3 img{
+    width: 25px;
+}
+.section4div4{
+    margin: 0 0 0 60%;
+}
+.section4div4 img{
+    width: 90px;
+}
